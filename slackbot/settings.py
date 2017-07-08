@@ -2,8 +2,8 @@
 
 import os
 
-DEBUG = False
-
+# DEBUG = False
+DEBUG = os.environ['DEBUG']
 PLUGINS = [
     'slackbot.plugins',
 ]
